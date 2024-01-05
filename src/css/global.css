@@ -12,7 +12,7 @@
 }
 
 .bg-imgBack{
-    background-image: url(../public/background-desketop.png);
+    background-image: url(/background-desketop.png);
     background-size: 100vw;
 }
 
