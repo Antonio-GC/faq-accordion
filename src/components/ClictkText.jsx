@@ -4,8 +4,8 @@ import { useState } from "react"
 
 function ClickText({question,answer}) {
   const [clickAnswer, setClickAnswer] = useState(true);
-  const urlPlus = "../public/plus.png"
-  const urlMinus = "../public/minus.png"
+  const urlPlus = "/icon-plus.svg"
+  const urlMinus = "/icon-minus.svg"
   return (
     <>
     <div className="grid my-3 gap-y-4">

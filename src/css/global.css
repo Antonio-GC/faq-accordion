@@ -1,17 +1,19 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
 
 
 
 .body{
     width: 100vw;
     height: 100vh;
+    font-family: "Work Sans", sans-serif;
 }
 
 .bg-imgBack{
     background-image: url(../public/background-desketop.png);
-    background-size: cover;
+    background-size: 100vw;
 }
 
 .position-x{
